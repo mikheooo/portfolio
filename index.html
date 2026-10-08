@@ -3,21 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Portfolio of Mikhail Kolesnikov, AI Automation Engineer and Python Developer." />
+    <meta name="description" content="Portfolio of Mikhail Kolesnikov — Senior Systems Administrator, DevOps & Infrastructure Engineer, and AI Automation Specialist. Based in Bangkok, Thailand." />
     <meta name="theme-color" content="#07101f" />
     <link rel="canonical" href="https://mikheooo.github.io/portfolio/" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Mikhail Kolesnikov — AI Automation Engineer" />
-    <meta property="og:title" content="Mikhail Kolesnikov — AI Automation Engineer" />
-    <meta property="og:description" content="Python developer building LLM workflows, asynchronous workers, browser automation and human-in-the-loop AI systems." />
+    <meta property="og:site_name" content="Mikhail Kolesnikov — Senior Systems & DevOps Engineer" />
+    <meta property="og:title" content="Mikhail Kolesnikov — Senior Systems & DevOps Engineer" />
+    <meta property="og:description" content="15+ years experience in enterprise IT, Linux, Docker, high availability, and AI automation. Based locally in Bangkok, Thailand." />
     <meta property="og:url" content="https://mikheooo.github.io/portfolio/" />
     <meta property="og:image" content="https://mikheooo.github.io/portfolio/job-search-vacancies.png" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Mikhail Kolesnikov — AI Automation Engineer" />
-    <meta name="twitter:description" content="Python developer building LLM workflows, asynchronous workers, browser automation and human-in-the-loop AI systems." />
+    <meta name="twitter:title" content="Mikhail Kolesnikov — Senior Systems & DevOps Engineer" />
+    <meta name="twitter:description" content="15+ years experience in enterprise IT, Linux, Docker, high availability, and AI automation. Based locally in Bangkok, Thailand." />
     <meta name="twitter:image" content="https://mikheooo.github.io/portfolio/job-search-vacancies.png" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2307101f'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='26' font-weight='bold' fill='%2321d37a' text-anchor='middle'%3EMK%3C/text%3E%3C/svg%3E" />
-    <title>Mikhail Kolesnikov — AI Automation Engineer</title>
+    <title>Mikhail Kolesnikov — Senior Systems & DevOps Engineer | Bangkok</title>
     <style>
       :root {
         --bg: #07101f;
@@ -29,6 +29,7 @@
         --green: #21d37a;
         --cyan: #46c5ff;
         --violet: #b17aff;
+        --amber: #f59e0b;
       }
       * { box-sizing: border-box; }
       html { scroll-behavior: smooth; }
@@ -40,59 +41,61 @@
         line-height: 1.5;
       }
       a { color: inherit; text-decoration: none; }
-      .button { transition: border-color 0.15s ease, filter 0.15s ease; }
+      .button { transition: border-color 0.15s ease, filter 0.15s ease, background 0.15s ease; }
       .button:hover { border-color: var(--cyan); }
       .button.primary:hover { filter: brightness(1.1); }
+      .button.accent { background: rgba(33, 211, 122, 0.15); border-color: var(--green); color: var(--green); }
+      .button.accent:hover { background: var(--green); color: #04170c; }
       .project-link { transition: color 0.15s ease; }
       .project-link:hover, .project-link:focus-visible { color: var(--cyan); }
       a:focus-visible, .button:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; border-radius: 4px; }
       .container { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
       nav { display: flex; align-items: center; justify-content: space-between; padding: 24px 0; }
-      .brand { font-weight: 760; letter-spacing: -0.02em; }
-      .nav-links { display: flex; gap: 18px; color: var(--muted); font-size: 0.92rem; }
-      .hero { padding: 88px 0 64px; max-width: 900px; }
-      .eyebrow { color: var(--green); font-weight: 700; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.12em; }
-      h1 { margin: 14px 0 22px; max-width: 850px; font-size: clamp(2.7rem, 7vw, 5.8rem); line-height: 0.98; letter-spacing: -0.065em; }
+      .brand { font-weight: 760; letter-spacing: -0.02em; font-size: 1.1rem; }
+      .nav-links { display: flex; gap: 20px; color: var(--muted); font-size: 0.95rem; }
+      .hero { padding: 80px 0 54px; max-width: 950px; }
+      .badge-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 16px; }
+      .badge { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 99px; font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; }
+      .badge.location { background: rgba(33, 211, 122, 0.15); border: 1px solid rgba(33, 211, 122, 0.35); color: var(--green); }
+      .badge.reloc { background: rgba(70, 197, 255, 0.15); border: 1px solid rgba(70, 197, 255, 0.35); color: var(--cyan); }
+      h1 { margin: 12px 0 20px; max-width: 920px; font-size: clamp(2.5rem, 6.5vw, 5.2rem); line-height: 1.02; letter-spacing: -0.05em; font-weight: 800; }
       h2 { margin: 0; font-size: clamp(1.8rem, 4vw, 2.7rem); letter-spacing: -0.04em; }
-      h3 { margin: 0; font-size: 1.3rem; letter-spacing: -0.03em; }
+      h3 { margin: 0; font-size: 1.35rem; letter-spacing: -0.03em; }
       p { margin: 0; }
-      .intro { max-width: 690px; color: var(--muted); font-size: clamp(1.06rem, 2vw, 1.26rem); }
-      .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
-      .button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 12px 17px; border: 1px solid var(--line); border-radius: 9px; font-weight: 700; }
+      .intro { max-width: 760px; color: var(--muted); font-size: clamp(1.08rem, 2vw, 1.28rem); line-height: 1.6; }
+      .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+      .button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 12px 18px; border: 1px solid var(--line); border-radius: 9px; font-weight: 700; font-size: 0.95rem; }
       .button.primary { background: var(--green); border-color: var(--green); color: #04170c; }
-      section { padding: 74px 0; }
-      .section-intro { margin: 12px 0 30px; max-width: 650px; color: var(--muted); }
-      .metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 48px; }
-      .metric, .project, .screen, .contact-card { border: 1px solid var(--line); background: rgba(13, 26, 46, 0.76); border-radius: 14px; }
+      section { padding: 68px 0; }
+      .section-intro { margin: 12px 0 30px; max-width: 720px; color: var(--muted); font-size: 1.05rem; }
+      .metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 44px; }
+      .metric, .project, .screen, .contact-card, .exp-card { border: 1px solid var(--line); background: rgba(13, 26, 46, 0.76); border-radius: 14px; }
       .metric { padding: 22px; }
-      .metric strong { display: block; color: var(--green); font-size: 2rem; letter-spacing: -0.04em; }
+      .metric strong { display: block; color: var(--green); font-size: 2.2rem; letter-spacing: -0.04em; }
       .metric span { color: var(--muted); font-size: 0.92rem; }
-      .project-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; }
+      .project-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; }
       .project { grid-column: span 6; padding: 28px; }
-      .project.featured { grid-column: 1 / -1; background: linear-gradient(110deg, rgba(33, 211, 122, 0.1), rgba(13, 26, 46, 0.9) 44%); }
-      .project p { margin-top: 12px; color: var(--muted); }
+      .project.featured { grid-column: 1 / -1; background: linear-gradient(110deg, rgba(33, 211, 122, 0.1), rgba(13, 26, 46, 0.92) 44%); }
+      .project p { margin-top: 12px; color: var(--muted); line-height: 1.6; }
       .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
-      .tag { padding: 5px 9px; border-radius: 99px; background: rgba(70, 197, 255, 0.1); color: #beeaff; font-size: 0.8rem; }
+      .tag { padding: 5px 10px; border-radius: 99px; background: rgba(70, 197, 255, 0.1); color: #beeaff; font-size: 0.82rem; }
       .project-link { display: inline-block; margin-top: 24px; color: var(--green); font-weight: 700; }
       .screens { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
       .screen { overflow: hidden; }
       .screen img { display: block; width: 100%; height: auto; }
       .screen figcaption { padding: 14px 16px 16px; color: var(--muted); font-size: 0.9rem; }
-      .flow { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 28px; }
-      .flow-step { padding: 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--muted); font-size: 0.9rem; }
-      .flow-step strong { display: block; margin-bottom: 6px; color: var(--text); }
-      .contact-card { display: grid; grid-template-columns: 1.5fr 1fr; gap: 26px; padding: 30px; }
-      .contact-list { display: grid; gap: 10px; color: var(--muted); }
-      footer { border-top: 1px solid var(--line); padding: 25px 0; color: var(--muted); font-size: 0.9rem; }
+      .contact-card { display: grid; grid-template-columns: 1.4fr 1.2fr; gap: 26px; padding: 36px; }
+      .contact-list { display: grid; gap: 12px; color: var(--muted); font-size: 0.98rem; }
+      .contact-list strong { color: var(--text); }
+      footer { border-top: 1px solid var(--line); padding: 28px 0; color: var(--muted); font-size: 0.9rem; }
       @media (max-width: 760px) {
         .container { width: min(100% - 28px, 1120px); }
         nav { align-items: flex-start; gap: 14px; }
         .nav-links { display: none; }
-        .hero { padding: 62px 0 40px; }
-        section { padding: 52px 0; }
+        .hero { padding: 60px 0 36px; }
+        section { padding: 48px 0; }
         .metrics, .screens, .contact-card { grid-template-columns: 1fr; }
         .project, .project.featured { grid-column: 1 / -1; }
-        .flow { grid-template-columns: 1fr; }
       }
     </style>
   </head>
@@ -100,51 +103,106 @@
     <main>
       <div class="container">
         <nav aria-label="Primary navigation">
-          <a class="brand" href="#top">MK / AI Automation</a>
-          <div class="nav-links"><a href="#work">Work</a><a href="#proof">Proof</a><a href="#contact">Contact</a></div>
+          <a class="brand" href="#top">Mikhail Kolesnikov • Senior Systems & DevOps</a>
+          <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#proof">Proof</a>
+            <a href="#contact">Contact</a>
+          </div>
         </nav>
         <section class="hero" id="top">
-          <div class="eyebrow">Mikhail Kolesnikov</div>
-          <h1>AI automation systems that turn information into action.</h1>
-          <p class="intro">Python developer focused on LLM workflows, asynchronous workers, browser automation, video analysis, and human-in-the-loop safety controls.</p>
-          <div class="actions">
-            <a class="button primary" href="mailto:mikhailthaiban@gmail.com">Email me</a>
-            <a class="button" href="https://github.com/mikheooo" target="_blank" rel="noreferrer">GitHub</a>
-            <a class="button" href="https://www.linkedin.com/in/mikheooo" target="_blank" rel="noreferrer">LinkedIn</a>
+          <div class="badge-row">
+            <span class="badge location">📍 Bangkok, Thailand</span>
+            <span class="badge reloc">⚡️ Zero Relocation Delay / Cost</span>
           </div>
-          <div class="metrics" aria-label="Job Search Hub dashboard snapshot">
-            <div class="metric"><strong>592</strong><span>vacancies collected</span></div>
-            <div class="metric"><strong>27</strong><span>application packages generated</span></div>
-            <div class="metric"><strong>42</strong><span>tracked applications</span></div>
+          <h1>Reliable infrastructure, enterprise DevOps & intelligent automation.</h1>
+          <p class="intro">
+            Senior Systems Administrator, DevOps & Infrastructure Engineer with <strong>15+ years</strong> of enterprise IT leadership. 
+            Proven track record managing high-availability production environments (99.9% uptime), Linux/Docker stacks, networks, and custom Python automation.
+            Permanently based in Bangkok — immediately available for on-site, hybrid, or remote roles.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="Mikhail_Kolesnikov_CV_Bangkok.pdf" target="_blank" download>📄 Download CV (PDF)</a>
+            <a class="button accent" href="https://t.me/brokeassh" target="_blank" rel="noreferrer">💬 Telegram (@brokeassh)</a>
+            <a class="button" href="mailto:mikhailthaiban@gmail.com">✉️ Email</a>
+            <a class="button" href="https://www.linkedin.com/in/mikheooo" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="button" href="https://github.com/mikheooo" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+          <div class="metrics" aria-label="Candidate track record and system stats">
+            <div class="metric"><strong>15+</strong><span>Years Enterprise IT & Infrastructure</span></div>
+            <div class="metric"><strong>99.9%</strong><span>Production SLA & Uptime Maintained</span></div>
+            <div class="metric"><strong>3,300+</strong><span>Vacancies & APIs Analyzed via Auto-Engine</span></div>
           </div>
         </section>
       </div>
 
+      <section id="about">
+        <div class="container">
+          <div class="eyebrow" style="color: var(--green); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 8px;">Experience Overview</div>
+          <h2>Proven Leadership & Technical Depth</h2>
+          <p class="section-intro">Extensive background in both corporate enterprise management and cutting-edge engineering pipelines.</p>
+          <div class="project-grid">
+            <article class="project">
+              <div class="eyebrow" style="color: var(--cyan); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; margin-bottom: 8px;">2022 — 2026 • Bangkok, Thailand</div>
+              <h3>Head of IT • Sayama Travel Group</h3>
+              <p>
+                Led corporate IT operations and technical teams across multiple international branches. 
+                Built resilient hybrid infrastructure, VoIP telephony, Bitrix24 enterprise CRM, secure site-to-site VPNs, and comprehensive automated disaster recovery routines.
+              </p>
+              <div class="tags">
+                <span class="tag">Linux</span><span class="tag">Docker</span><span class="tag">Networks</span><span class="tag">Bitrix24</span><span class="tag">VoIP</span><span class="tag">Information Security</span>
+              </div>
+            </article>
+            <article class="project">
+              <div class="eyebrow" style="color: var(--violet); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; margin-bottom: 8px;">Core Engineering Competencies</div>
+              <h3>Infrastructure, CI/CD & Automation</h3>
+              <p>
+                Hands-on expertise in container orchestration (Docker/Compose), reverse proxies (Nginx/Traefik), CI/CD pipelines, 
+                high-performance database tuning (PostgreSQL, MySQL, Redis), observability (Prometheus/Grafana/ELK), and Python automation.
+              </p>
+              <div class="tags">
+                <span class="tag">Python</span><span class="tag">CI/CD</span><span class="tag">PostgreSQL</span><span class="tag">Redis</span><span class="tag">Monitoring</span><span class="tag">Cloud & Bare-Metal</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section id="work">
         <div class="container">
-          <div class="eyebrow">Selected work</div>
-          <h2>Systems built around real workflows.</h2>
-          <p class="section-intro">Every project below is based on an existing local repository and linked to its GitHub source.</p>
+          <div class="eyebrow" style="color: var(--green); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 8px;">Selected Projects</div>
+          <h2>Production systems built for scale.</h2>
+          <p class="section-intro">Open-source and production tools available on GitHub.</p>
           <div class="project-grid">
             <article class="project featured">
-              <div class="eyebrow">Featured project</div>
-              <h3>Job Search Hub</h3>
-              <p>A multi-source job-search platform that collects, normalizes, filters, scores, and tracks vacancies; generates application packages; and surfaces every stage in a review-first dashboard.</p>
-              <div class="tags"><span class="tag">Python</span><span class="tag">Playwright/CDP</span><span class="tag">Pydantic</span><span class="tag">SQLite</span><span class="tag">LLM APIs</span><span class="tag">Dashboard</span></div>
+              <div class="eyebrow" style="color: var(--green); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; margin-bottom: 8px;">Featured Autonomous System</div>
+              <h3>Job Search Hub & Recruitment Automation</h3>
+              <p>
+                An end-to-end multi-source recruitment platform that connects directly to ATS APIs (Greenhouse/Agoda, Lever/Lalamove), HeadHunter CDP, and Telegram channels. 
+                Automates candidate-job semantic matching, AI cover-letter generation, automated headless CDP submissions, and provides a real-time mobile control center via Telegram.
+              </p>
+              <div class="tags">
+                <span class="tag">Python</span><span class="tag">Playwright / CDP</span><span class="tag">FastAPI</span><span class="tag">SQLite</span><span class="tag">Telegram API</span><span class="tag">LLM Orchestration</span>
+              </div>
               <a class="project-link" href="https://github.com/mikheooo/job-search" target="_blank" rel="noreferrer">View source on GitHub ↗</a>
             </article>
             <article class="project">
-              <div class="eyebrow">Research to action</div>
-              <h3>Reels Analyzer</h3>
-              <p>A Telegram-based pipeline that analyses short-form video, extracts visual evidence and claims, checks sources, produces structured action tasks, and sends those tasks into a personal taskboard for AI-assisted execution.</p>
-              <div class="tags"><span class="tag">aiogram</span><span class="tag">Redis + ARQ</span><span class="tag">PostgreSQL</span><span class="tag">Gemini</span><span class="tag">Exa</span><span class="tag">FFmpeg</span></div>
+              <div class="eyebrow" style="color: var(--cyan); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; margin-bottom: 8px;">Async Intelligence Worker</div>
+              <h3>Reels Analyzer Pipeline</h3>
+              <p>Telegram-based asynchronous media pipeline that ingests short-form video, extracts visual and audio evidence, performs LLM claims verification, and dispatches actionable tasks to personal dashboards.</p>
+              <div class="tags">
+                <span class="tag">aiogram</span><span class="tag">Redis + ARQ</span><span class="tag">PostgreSQL</span><span class="tag">Gemini Flash</span><span class="tag">FFmpeg</span>
+              </div>
               <a class="project-link" href="https://github.com/mikheooo/reels_bot" target="_blank" rel="noreferrer">View source on GitHub ↗</a>
             </article>
             <article class="project">
-              <div class="eyebrow">Video to task</div>
-              <h3>Reels2Action</h3>
-              <p>A separate Telegram bot and asynchronous worker that turn Instagram Reels, TikToks, and YouTube Shorts into structured tasks with task-state controls.</p>
-              <div class="tags"><span class="tag">Python</span><span class="tag">aiogram</span><span class="tag">ARQ</span><span class="tag">Redis</span><span class="tag">asyncpg</span><span class="tag">Docker</span></div>
+              <div class="eyebrow" style="color: var(--violet); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; margin-bottom: 8px;">Microservices & Workers</div>
+              <h3>Reels2Action Worker</h3>
+              <p>Containerized background worker service that parses and converts external video URLs (Instagram Reels, TikTok, YouTube Shorts) into structured engineering tasks with state management.</p>
+              <div class="tags">
+                <span class="tag">Python</span><span class="tag">Docker</span><span class="tag">ARQ</span><span class="tag">asyncpg</span>
+              </div>
               <a class="project-link" href="https://github.com/mikheooo/reels2action" target="_blank" rel="noreferrer">View source on GitHub ↗</a>
             </article>
           </div>
@@ -153,19 +211,18 @@
 
       <section id="proof">
         <div class="container">
-          <div class="eyebrow">Working interface</div>
-          <h2>Job Search Hub in use.</h2>
-          <p class="section-intro">Dashboard screenshots captured from the local system: vacancy discovery, review controls, and application funnel analytics.</p>
+          <div class="eyebrow" style="color: var(--green); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 8px;">Production Interface</div>
+          <h2>Job Search Hub In Action</h2>
+          <p class="section-intro">Visual proof from the live system: vacancy discovery, screening questions resolution, and multi-channel pipeline.</p>
           <div class="screens">
-            <figure class="screen"><img src="job-search-vacancies.png" alt="Job Search Hub vacancy list showing source, company, vacancy, salary, and application package actions." /><figcaption>Vacancy discovery and review-first application-package workflow.</figcaption></figure>
-            <figure class="screen"><img src="job-search-funnel.png" alt="Job Search Hub funnel analytics showing sources, collected vacancies, queued items, and sent applications." /><figcaption>Source distribution and application lifecycle analytics.</figcaption></figure>
-          </div>
-          <div class="flow" aria-label="Reels Analyzer workflow">
-            <div class="flow-step"><strong>1. Analyse</strong>Video, transcript, visible evidence, claims.</div>
-            <div class="flow-step"><strong>2. Verify</strong>Source research, QA, decision gate.</div>
-            <div class="flow-step"><strong>3. Create task</strong>Evidence-backed action item.</div>
-            <div class="flow-step"><strong>4. Taskboard</strong>Prioritize and track the work.</div>
-            <div class="flow-step"><strong>5. Execute with AI</strong>Agents and tools produce the selected output.</div>
+            <figure class="screen">
+              <img src="job-search-vacancies.png" alt="Job Search Hub vacancy list" />
+              <figcaption>Multi-source vacancy discovery, salary filtering, and automated application workflow.</figcaption>
+            </figure>
+            <figure class="screen">
+              <img src="job-search-funnel.png" alt="Job Search Hub funnel analytics" />
+              <figcaption>Source distribution, application lifecycles, and conversion rate metrics.</figcaption>
+            </figure>
           </div>
         </div>
       </section>
@@ -174,22 +231,31 @@
         <div class="container">
           <div class="contact-card">
             <div>
-              <div class="eyebrow">Contact</div>
-              <h2>Let’s build something useful.</h2>
-              <p class="section-intro">Available for AI automation, Python, LLM workflow, and agent-system opportunities.</p>
+              <div class="eyebrow" style="color: var(--green); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 8px;">Contact & Availability</div>
+              <h2>Let's build reliable systems together.</h2>
+              <p class="section-intro">
+                Immediately available for Senior Systems Administrator, DevOps / Infrastructure Engineer, and Technical IT Lead roles. 
+                Readily available for in-person meetings across Bangkok.
+              </p>
+              <div style="margin-top: 24px;">
+                <a class="button primary" href="Mikhail_Kolesnikov_CV_Bangkok.pdf" target="_blank" download>📄 Download CV (PDF)</a>
+              </div>
             </div>
             <div class="contact-list">
-              <a href="mailto:mikhailthaiban@gmail.com">mikhailthaiban@gmail.com</a>
-              <a href="tel:+79933397628">RU: +7 993 339-76-28</a>
-              <a href="tel:+66815036090">TH: +66 81 503-6090</a>
-              <a href="https://t.me/mikheooo" target="_blank" rel="noreferrer">Telegram: @mikheooo</a>
-              <a href="https://www.linkedin.com/in/mikheooo" target="_blank" rel="noreferrer">LinkedIn</a>
-              <a href="https://github.com/mikheooo" target="_blank" rel="noreferrer">GitHub</a>
+              <div><strong>Location:</strong> Bangkok, Thailand (On-site / Hybrid / Remote)</div>
+              <div><strong>Email:</strong> <a href="mailto:mikhailthaiban@gmail.com">mikhailthaiban@gmail.com</a></div>
+              <div><strong>Thailand Phone:</strong> <a href="tel:+66815036090">+66 81 503-6090</a></div>
+              <div><strong>RU Phone:</strong> <a href="tel:+79933397628">+7 (993) 339-76-28</a></div>
+              <div><strong>Telegram:</strong> <a href="https://t.me/brokeassh" target="_blank" rel="noreferrer">@brokeassh</a> / <a href="https://t.me/mikheooo" target="_blank" rel="noreferrer">@mikheooo</a></div>
+              <div><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mikheooo" target="_blank" rel="noreferrer">linkedin.com/in/mikheooo</a></div>
+              <div><strong>GitHub:</strong> <a href="https://github.com/mikheooo" target="_blank" rel="noreferrer">github.com/mikheooo</a></div>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer><div class="container">© 2026 Mikhail Kolesnikov</div></footer>
+    <footer>
+      <div class="container">© 2026 Mikhail Kolesnikov • Senior Systems & DevOps Engineer • Bangkok, Thailand</div>
+    </footer>
   </body>
 </html>
